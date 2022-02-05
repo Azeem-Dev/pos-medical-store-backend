@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>pharmacy_pos.datalayer</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\pharmacy-pos.ef\pharmacy-pos.ef.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repository\Product\Dtos\" />
+  </ItemGroup>
+
+</Project>

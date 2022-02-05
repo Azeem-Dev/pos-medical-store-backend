@@ -1,0 +1,267 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos\\pharmacy-pos.api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.datalayer\\pharmacy-pos.datalayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.datalayer\\pharmacy-pos.datalayer.csproj",
+        "projectName": "pharmacy-pos.datalayer",
+        "projectPath": "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.datalayer\\pharmacy-pos.datalayer.csproj",
+        "packagesPath": "C:\\Users\\azeem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.datalayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\azeem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.ef\\pharmacy-pos.ef.csproj": {
+                "projectPath": "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.ef\\pharmacy-pos.ef.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.ef\\pharmacy-pos.ef.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.ef\\pharmacy-pos.ef.csproj",
+        "projectName": "pharmacy-pos.ef",
+        "projectPath": "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.ef\\pharmacy-pos.ef.csproj",
+        "packagesPath": "C:\\Users\\azeem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.ef\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\azeem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.servicelayer\\pharmacy-pos.servicelayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.servicelayer\\pharmacy-pos.servicelayer.csproj",
+        "projectName": "pharmacy-pos.servicelayer",
+        "projectPath": "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.servicelayer\\pharmacy-pos.servicelayer.csproj",
+        "packagesPath": "C:\\Users\\azeem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.servicelayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\azeem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.datalayer\\pharmacy-pos.datalayer.csproj": {
+                "projectPath": "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.datalayer\\pharmacy-pos.datalayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos\\pharmacy-pos.api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos\\pharmacy-pos.api.csproj",
+        "projectName": "pharmacy-pos.api",
+        "projectPath": "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos\\pharmacy-pos.api.csproj",
+        "packagesPath": "C:\\Users\\azeem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\azeem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.servicelayer\\pharmacy-pos.servicelayer.csproj": {
+                "projectPath": "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.servicelayer\\pharmacy-pos.servicelayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

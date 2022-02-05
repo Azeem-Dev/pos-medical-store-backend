@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d03195b8-216b-4385-a989-41b5a15b30a1": {
+      "ProjectGuid": "d03195b8-216b-4385-a989-41b5a15b30a1",
+      "DisplayName": "pharmacy-pos.api",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "4f4cbc04-b88f-4382-9892-e56253472647": {
+      "ProjectGuid": "4f4cbc04-b88f-4382-9892-e56253472647",
+      "DisplayName": "pharmacy-pos.ef",
+      "ColorIndex": 1
+    },
+    "a89cce5f-93a3-4a5a-be63-48164c8db470": {
+      "ProjectGuid": "a89cce5f-93a3-4a5a-be63-48164c8db470",
+      "DisplayName": "pharmacy-pos.datalayer",
+      "ColorIndex": 2
+    },
+    "3b500bbd-8bbb-4a4f-83db-71bd57388485": {
+      "ProjectGuid": "3b500bbd-8bbb-4a4f-83db-71bd57388485",
+      "DisplayName": "pharmacy-pos.servicelayer",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
