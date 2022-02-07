@@ -10,6 +10,7 @@ namespace pharmacy_pos.datalayer.Registerar
     {
         public static IServiceCollection DataLayerRegisterar_RegisterServices(this IServiceCollection services, IConfiguration configuration)
         {
+            services.AddAutoMapper(typeof(DataLayerRegisterar));
             services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
             services.AddTransient<IProductTypeRepo,ProductTypeRepo>();
             services.EfLayerRegisterar_RegisterServices(configuration);

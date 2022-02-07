@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3HA2ThpHEwbhZork1EBnsGjZx1HEAzfRNTOHuEXeeIZ/NF3GTDjaQv+9zWy7UAowvh62juH3+KDd/qcp4byOow==",
+  "dgSpecHash": "oJ16+fTaLclIari8Dhtx7qyR4Gj4c5/rVFWO5FRjyATEQaTaa4XS5ynPbgeuPM6oKkSJ/gamj5PQ2g9rR8P6xg==",
   "success": true,
   "projectFilePath": "C:\\Users\\azeem\\source\\repos\\pharmacy-pos\\pharmacy-pos.servicelayer\\pharmacy-pos.servicelayer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\azeem\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\azeem\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\azeem\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\azeem\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\azeem\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\azeem\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\azeem\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",

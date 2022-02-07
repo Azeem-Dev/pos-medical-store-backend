@@ -1,4 +1,5 @@
-﻿using pharmacy_pos.datalayer.Repository.ProductType.Dtos.AddProductType;
+﻿using AutoMapper;
+using pharmacy_pos.datalayer.Repository.ProductType.Dtos.AddProductType;
 using pharmacy_pos.datalayer.Repository.ProductType.Dtos.GetProductType;
 using ProductTypeEntity = pharmacy_pos.ef.Entities.ProductType.ProductType;
 
@@ -7,38 +8,24 @@ namespace pharmacy_pos.datalayer.Repository.ProductType
     public class ProductTypeRepo : IProductTypeRepo
     {
         private readonly IRepository<ProductTypeEntity> _productTypeRepo;
+        private readonly IMapper _mapper;
 
-        public ProductTypeRepo(IRepository<ProductTypeEntity> productTypeRepo)
+        public ProductTypeRepo(IRepository<ProductTypeEntity> productTypeRepo, IMapper mapper)
         {
             _productTypeRepo = productTypeRepo;
+            _mapper = mapper;
         }
         public async Task<AddProductTypeRes> AddProductType(AddProductTypeReq request)
         {
-            var entity = new ProductTypeEntity()
-            {
-                TypeName = request.TypeName
-            };
-
+            var entity = _mapper.Map<ProductTypeEntity>(request);
             await _productTypeRepo.Add(entity);
-            if (!string.IsNullOrEmpty(entity.Id.ToString()))
-            {
-                await _productTypeRepo.Save();
-            }
-            return new AddProductTypeRes
-            {
-                Id = entity.Id.ToString(),
-                TypeName = entity.TypeName,
-            };
+            await _productTypeRepo.Save();
+            return _mapper.Map<AddProductTypeRes>(entity);
 
         }
         public async Task<List<GetProductTypes>> GetAllTypes()
         {
-            var result = await _productTypeRepo.GetAll();
-            return result.Select(c => new GetProductTypes
-            {
-                Id = c.Id.ToString(),
-                TypeName = c.TypeName
-            }).ToList();
+            return _mapper.Map<List<GetProductTypes>>(await _productTypeRepo.GetAll());
         }
     }
 }

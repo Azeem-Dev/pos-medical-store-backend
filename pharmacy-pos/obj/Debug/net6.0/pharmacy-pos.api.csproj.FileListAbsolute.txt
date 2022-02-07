@@ -64,3 +64,5 @@ C:\Users\azeem\source\repos\pharmacy-pos\pharmacy-pos\obj\Debug\net6.0\pharmacy-
 C:\Users\azeem\source\repos\pharmacy-pos\pharmacy-pos\obj\Debug\net6.0\ref\pharmacy-pos.api.dll
 C:\Users\azeem\source\repos\pharmacy-pos\pharmacy-pos\obj\Debug\net6.0\pharmacy-pos.api.pdb
 C:\Users\azeem\source\repos\pharmacy-pos\pharmacy-pos\obj\Debug\net6.0\pharmacy-pos.api.genruntimeconfig.cache
+C:\Users\azeem\source\repos\pharmacy-pos\pharmacy-pos\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\azeem\source\repos\pharmacy-pos\pharmacy-pos\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
