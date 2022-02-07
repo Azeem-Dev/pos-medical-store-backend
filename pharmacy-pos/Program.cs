@@ -1,5 +1,6 @@
 using pharmacy_pos.api.Registerar;
 var builder = WebApplication.CreateBuilder(args);
+//Adding CORS
 builder.Services.AddCors(p => p.AddPolicy("corsapp", builder =>
 {
     builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
