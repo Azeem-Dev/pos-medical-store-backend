@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using pharmacy_pos.datalayer.Repository.ProductType.Dtos.AddProductType;
+using pharmacy_pos.datalayer.Repository.ProductType.Dtos.GetProductType;
+using pharmacy_pos.ef.Entities.ProductType;
 using pharmacy_pos.servicelayer.Services.ProductType;
 
 namespace pharmacy_pos.api.Controllers.ProductTypeController
@@ -19,6 +21,11 @@ namespace pharmacy_pos.api.Controllers.ProductTypeController
         public async Task<AddProductTypeRes> AddProductType(AddProductTypeReq req)
         {
             return await _repo.AddProductType(req);
+        }
+        [HttpGet("GetAllTypes")]
+        public async Task<List<GetProductTypes>> GetAllTypes()
+        {
+            return await _repo.GetAllTypes();
         }
     }
 }

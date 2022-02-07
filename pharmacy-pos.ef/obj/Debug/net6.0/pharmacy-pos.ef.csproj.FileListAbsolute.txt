@@ -3,6 +3,7 @@ C:\Users\azeem\source\repos\pharmacy-pos\pharmacy-pos.ef\bin\Debug\net6.0\pharma
 C:\Users\azeem\source\repos\pharmacy-pos\pharmacy-pos.ef\bin\Debug\net6.0\pharmacy-pos.ef.dll
 C:\Users\azeem\source\repos\pharmacy-pos\pharmacy-pos.ef\bin\Debug\net6.0\ref\pharmacy-pos.ef.dll
 C:\Users\azeem\source\repos\pharmacy-pos\pharmacy-pos.ef\bin\Debug\net6.0\pharmacy-pos.ef.pdb
+C:\Users\azeem\source\repos\pharmacy-pos\pharmacy-pos.ef\obj\Debug\net6.0\pharmacy-pos.ef.csproj.AssemblyReference.cache
 C:\Users\azeem\source\repos\pharmacy-pos\pharmacy-pos.ef\obj\Debug\net6.0\pharmacy-pos.ef.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\azeem\source\repos\pharmacy-pos\pharmacy-pos.ef\obj\Debug\net6.0\pharmacy-pos.ef.AssemblyInfoInputs.cache
 C:\Users\azeem\source\repos\pharmacy-pos\pharmacy-pos.ef\obj\Debug\net6.0\pharmacy-pos.ef.AssemblyInfo.cs
