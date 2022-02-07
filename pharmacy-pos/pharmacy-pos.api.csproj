@@ -19,8 +19,4 @@
     <ProjectReference Include="..\pharmacy-pos.servicelayer\pharmacy-pos.servicelayer.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\ProductController\" />
-  </ItemGroup>
-
 </Project>

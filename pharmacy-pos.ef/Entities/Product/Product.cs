@@ -17,6 +17,8 @@ namespace pharmacy_pos.ef.Entities.Product
         public string BarCodeNumber { get; set; }
         public string BarCodePath { get; set; }
         public string Manufactorer { get; set; }
+        public string Batch { get; set; }
+        public string ExpiryDate { get; set; }
         public ProductType.ProductType ProductType { get; set; }
         public Guid ProductTypeId { get; set; }
     }

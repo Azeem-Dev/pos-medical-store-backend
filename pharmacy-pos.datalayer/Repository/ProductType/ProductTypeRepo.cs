@@ -1,20 +1,20 @@
 ﻿using pharmacy_pos.datalayer.Repository.ProductType.Dtos.AddProductType;
 using pharmacy_pos.datalayer.Repository.ProductType.Dtos.GetProductType;
-using PT = pharmacy_pos.ef.Entities.ProductType;
+using ProductTypeEntity = pharmacy_pos.ef.Entities.ProductType.ProductType;
 
 namespace pharmacy_pos.datalayer.Repository.ProductType
 {
     public class ProductTypeRepo : IProductTypeRepo
     {
-        private readonly IRepository<PT.ProductType> _productTypeRepo;
+        private readonly IRepository<ProductTypeEntity> _productTypeRepo;
 
-        public ProductTypeRepo(IRepository<PT.ProductType> productTypeRepo)
+        public ProductTypeRepo(IRepository<ProductTypeEntity> productTypeRepo)
         {
             _productTypeRepo = productTypeRepo;
         }
         public async Task<AddProductTypeRes> AddProductType(AddProductTypeReq request)
         {
-            var entity = new PT.ProductType()
+            var entity = new ProductTypeEntity()
             {
                 TypeName = request.TypeName
             };
