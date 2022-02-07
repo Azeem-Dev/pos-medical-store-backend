@@ -14,11 +14,7 @@ namespace pharmacy_pos.datalayer
     {
         public AutoMapperProfile()
         {
-            //CreateMap<CategoryResponseDto, CategoryEntity>().ReverseMap();
             //CreateMap<LinkEntity, LinkResponseDto>().ForMember(c => c.Categories, c => c.MapFrom(c => c.LinkCategories.Select(c => c.Category))).ReverseMap();
-            //CreateMap<SubCategoryEntityDto, SubCategoryEntity>().ReverseMap();
-            //CreateMap<CategoryEntityDto, CategoryEntity>().ReverseMap();
-            //CreateMap<LinkCreateSubCategoryResponseDto, SubCategoryEntity>().ReverseMap();
             CreateMap<AddProductTypeReq, ProductTypeEntity>();
             CreateMap<ProductTypeEntity, AddProductTypeRes>();
             CreateMap<ProductTypeEntity, GetProductTypes>();
