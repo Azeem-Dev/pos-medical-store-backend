@@ -20,7 +20,7 @@ namespace pharmacy_pos.datalayer.Repository.ProductType
             };
 
             await _productTypeRepo.Add(entity);
-            if (entity.Id != null)
+            if (!string.IsNullOrEmpty(entity.Id.ToString()))
             {
                 await _productTypeRepo.Save();
             }
