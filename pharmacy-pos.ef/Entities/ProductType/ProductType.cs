@@ -4,6 +4,6 @@
     {
         public Guid Id { get; set; }
         public string TypeName { get; set; }
-        public ICollection<Product.Product> Products { get; set; }
+        public List<Product.Product> Products { get; set; }
     }
 }
