@@ -26,5 +26,8 @@ namespace pharmacy_pos.api.Controllers.ProductController
         {
             return await _productService.AddProduct(product);
         }
+
+        //[HttpPost("")]
+        //public async Task<bool> GetProductWithBatch()
     }
 }

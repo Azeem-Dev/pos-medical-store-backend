@@ -15,4 +15,10 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repository\Purchase\Dtos\" />
+    <Folder Include="Repository\Sale\Dtos\" />
+    <Folder Include="Repository\Supplier\Dtos\" />
+  </ItemGroup>
+
 </Project>
