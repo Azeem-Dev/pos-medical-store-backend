@@ -28,19 +28,7 @@ namespace pharmacy_pos.datalayer.Repository.Product
             => _mapper.Map<List<ProductBaseDto>>(await _context.Set<ProductEntity>().Include(c => c.ProductType).ToListAsync());
         public async Task<bool> AddProduct(AddProductDto product)
         {
-            var entity = new ProductEntity
-            {
-                Name = product.Name,
-                PackQuantity = product.PackQuantity,
-                PackCostPrice = product.PackCostPrice,
-                PackRetailPrice = product.PackRetailPrice,
-                RackNumber = product.RackNumber,
-                Manufactorer = product.Manufactorer,
-                Batch = product.Batch,
-                ExpiryDate = product.ExpiryDate,
-                ProductTypeId = Guid.Parse(product.ProductTypeId)
-
-            };
+            var entity = _mapper.Map<ProductEntity>(product);
             var res= await _productRepo.Add(entity);
             await _productRepo.Save();
             return Task.CompletedTask.IsCompleted;

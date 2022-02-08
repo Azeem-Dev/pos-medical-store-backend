@@ -29,6 +29,10 @@ namespace pharmacy_pos.datalayer
                                                 (
                                                     c => c.ProductType, d => d.MapFrom<ProductTypeEntity>(e => e.ProductType)
                                                 ).ReverseMap();
+            CreateMap<AddProductDto, ProductEntity>().ForMember
+                                                (
+                                                    c => c.ProductTypeId, d => d.MapFrom<string>(e => e.ProductTypeId)
+                                                );
             #endregion
         }
     }
