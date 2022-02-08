@@ -29,19 +29,15 @@ namespace pharmacy_pos.ef.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("BarCodeNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("BarCodePath")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Batch")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ExpiryDate")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Manufactorer")
@@ -65,7 +61,6 @@ namespace pharmacy_pos.ef.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("RackNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
